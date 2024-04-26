@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #fff;
+  font-family: "Noto Serif KR", serif;
+}
+
+#main_visual {
+  background: #000;
+}
+#main_visual img {
+  display: block;
+  position: relative;
+}
+#main_visual .mv_txt {
+  position: absolute;
+  top: 180px;
+  left: 600px;
+}
+#main_visual h1 {
+  font-family: "Prata" sans-serif;
+  color: #fff;
+  margin: 0;
+
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+#main_visual p {
+  text-align: center;
+  margin: 0;
+}
+#main_visual nav {
+  display: flex;
+  background: #000;
+}
+#main_visual nav .inner {
+  padding-top: 30px;
+  display: block;
+  width: 1400px;
+  margin: 0 auto;
+}
+#main_visual nav .classic {
+  font-size: 15px;
+  padding: 30px 0;
+  font-weight: 200;
+}
+#main_visual nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+#main_visual nav ul li {
+  text-align: center;
+}
+#main_visual nav ul li h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+#main_visual nav ul li p {
+  font-size: 15px;
+  font-weight: 200;
+}
+#main_visual nav ul li p {
+  font-size: 15px;
+  font-weight: 200;
+}
+#car_view {
+  position: relative;
+  background: url(../images/slide_bg.png) no-repeat center / cover;
+}
+.car_set {
+  height: 100%;
+  text-align: center;
+}
+
+.car_set img {
+  object-fit: cover;
+  z-index: 5;
+}
+
+#car_view .option {
+  background: #000;
+  bottom: 0;
+  padding: 50px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+#car_view .option .inner {
+  font-size: 30px;
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#car_view .option .inner .l_txt {
+  display: flex;
+  gap: 40px;
+}
+#car_view .option .inner .l_txt h4:nth-child(1) a {
+  color: #bf9b30;
+}
+#car_view .option .inner .l_txt h4 a {
+  padding: 20px;
+}
+#car_view .option .inner .r_txt {
+  display: flex;
+}
+#car_view .option .inner .r_txt h4:nth-child(1) a {
+  background: #fff;
+  color: #000;
+}
+#car_view .option .inner .r_txt h4 a {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}
+
+/* pf */
+#pf {
+  background: #000;
+}
+#pf .inner {
+  margin: 0 auto;
+  width: 1400px;
+}
+#pf .inner h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+  padding: 60px 0 30px;
+}
+#pf .inner .parts_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#pf .inner .parts_wrap {
+  padding-bottom: 50px;
+}
+#pf .inner .parts_list .parts_txt h2 {
+  font-size: 35px;
+  margin: 0;
+}
+#pf .inner .parts_list .parts_txt p {
+  font-size: 20px;
+  margin: 50px 0;
+}
+
+/* TECHNOLOGY */
+#technology {
+  background: #000;
+}
+#technology .inner {
+  width: 1400px;
+  margin: 0 auto;
+}
+#technology .inner .tac_wrap {
+  padding-bottom: 50px;
+}
+
+#technology .inner h1 {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  padding: 60px 0 30px;
+  text-transform: uppercase;
+}
+#technology .inner .tac {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#technology .inner .tac_txt h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 35px;
+}
+#technology .inner .tac_txt p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* EXTERIOR */
+#exterior {
+  background: #000;
+}
+#exterior .inner {
+  width: 1400px;
+  margin: 0 auto;
+}
+#exterior .inner .ext_wrap {
+  padding-bottom: 50px;
+}
+#exterior .inner h1 {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  padding: 60px 0 30px;
+  text-transform: uppercase;
+}
+#exterior .inner .ext {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#exterior .inner .ext_txt h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 35px;
+}
+#exterior .inner .ext_txt p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* INTERIOR */
+#interior {
+  background: #000;
+}
+#interior .inner {
+  width: 1400px;
+  margin: 0 auto;
+}
+#interior .inner .int_wrap {
+  padding-bottom: 50px;
+}
+#interior .inner h1 {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  padding: 60px 0 30px;
+  text-transform: uppercase;
+}
+#interior .inner .int {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#interior .inner .int_txt h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 35px;
+}
+#interior .inner .int_txt p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* GALLERY */
+
+#gallery {
+  background: #000;
+}
+#gallery .inner {
+  width: 1400px;
+  padding: 45px 0;
+  margin: 0 auto;
+}
+#gallery .inner h1 {
+  margin: 0;
+  font-size: 40px;
+}
+#gallery .inner ul {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+#gallery .inner ul li img {
+  display: block;
+}
+
+/* levels */
+
+#levels {
+  background: #000;
+  padding-bottom: 80px;
+}
+#levels .inner {
+  width: 1400px;
+  margin: 0 auto;
+  gap: 200px;
+}
+#levels .inner h1 {
+  padding: 30px 0 50px;
+  margin: 0;
+  font-size: 40px;
+}
+#levels .inner .level_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+#levels .inner ul {
+  list-style: disc;
+}
+#levels .inner ul li {
+  font-size: 10px;
+  font-weight: 200;
+  padding: 10px 0;
+}
+#levels .inner dl {
+  display: flex;
+  justify-content: space-between;
+}
+#levels .inner dl dt {
+  font-size: 20px;
+  top: 0;
+}
+
+/* spec */
+#spec {
+  background: #181818;
+}
+#spec .inner {
+  padding: 200px 0;
+  width: 1400px;
+  margin: 0 auto;
+}
+#spec .inner h1 {
+  font-size: 50px;
+  color: #fff;
+}
+#spec .inner .spec_main {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#spec .inner ul li {
+  padding: 10px 0;
+}
+#spec .inner .spec_more {
+  text-align: right;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#spec .inner .spec_more a {
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  right: 0;
+}

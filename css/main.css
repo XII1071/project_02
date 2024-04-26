@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  line-height: 1.5;
+  color: #fff;
+  font-family: "Noto Serif KR", serif;
+}
+#main_visual video {
+  display: block;
+}
+
+/* promotion */
+#promotion {
+  width: 100%;
+  background: url(../images/promotion.png) no-repeat center;
+}
+#promotion .pro_top {
+  text-align: center;
+}
+#promotion .pro_top h1 {
+  padding: 83px 0 515px;
+  font-size: 50px;
+  font-weight: 400;
+}
+#promotion .pro_more {
+  text-align: center;
+  padding-bottom: 105px;
+}
+#promotion .pro_more p {
+  font-size: 25px;
+}
+#promotion .txt_bt {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+#promotion .txt_bt p {
+  font-size: 0;
+  width: 250px;
+}
+#promotion .txt_bt a {
+  font-size: 30px;
+  display: block;
+  margin-top: 15px;
+  padding: 11px 100px;
+  border: 1px solid #fff;
+  justify-content: center;
+}
+#promotion .txt_bt a:hover {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+}
+#promotion .txt_right h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1;
+  margin-right: 100px;
+}
+
+/* car_menu */
+#car_menu {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.car_list {
+  display: flex;
+}
+#car_menu .car_list li {
+  background: #000;
+  position: relative;
+  width: 100%;
+}
+#car_menu .car_list li img {
+  display: block;
+  opacity: 0.9;
+  width: 100%;
+}
+#car_menu .car_list li h1 {
+  font-size: 60px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 5;
+}
+#car_sec {
+  width: 100%;
+}
+.ev {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+.ev_img {
+  position: relative;
+}
+.ev_img img {
+  background: #000;
+  display: block;
+}
+.ev_img h1 {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 60px;
+  position: absolute;
+}
+.ev_list {
+  font-size: 40px;
+  color: #000;
+}
+.ev_list li {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.ev_list li:nth-child(2) {
+  margin: 50px 0 0 200px;
+}
+.ev_list li p {
+  margin: 0 50px;
+}
+.sd_img {
+  position: relative;
+}
+.sd_img img {
+  background: #000;
+  display: block;
+}
+.sd_img h1 {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 60px;
+  position: absolute;
+}
+.sd {
+  background: #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  padding-right: 50px;
+}
+.sd_list {
+  font-size: 40px;
+  color: #000;
+  margin-left: 200px;
+}
+.sd_list li {
+  display: flex;
+  align-items: center;
+}
+.car_txt {
+  margin: 0 100px;
+}
+.car_txt p {
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.car_txt p span {
+  font-size: 50px;
+  font-weight: 500;
+}
+.sv_img {
+  position: relative;
+}
+.sv_img img {
+  background: #000;
+  display: block;
+}
+.sv_img h1 {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 60px;
+  position: absolute;
+}
+.sv {
+  background: #fff;
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  z-index: 5;
+}
+.sv_list {
+  font-size: 40px;
+  color: #000;
+  margin-left: 200px;
+  padding-right: 50px;
+}
+.sv_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sv_list .car_txt {
+  margin-left: 250px;
+}
+.car_txt p {
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.car_txt p span {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#test_drive {
+  display: flex;
+  background: #000;
+  z-index: -1;
+}
+.drive_txt {
+  width: 850px;
+}
+#test_drive .inner {
+  padding: 0 100px;
+  margin: 0 auto;
+}
+#test_drive .inner h1 {
+  padding: 85px 0 10px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#test_drive .inner h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+#test_drive .inner h3 {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+#test_drive .inner .top {
+  text-align: center;
+  padding-bottom: 100px;
+  color: #999;
+}
+.drive_img img {
+  width: calc(1903px - 850px);
+  opacity: 0.8;
+}
+#test_drive .inner .calender li {
+  padding: 20px 0;
+  font-size: 15px;
+}
+#test_drive .inner .calender .more {
+  padding-top: 40px;
+}
+#test_drive .inner .test_more {
+  margin: 80px 0 50px;
+  text-align: center;
+}
+#test_drive .inner .test_more a {
+  padding: 5px 40px;
+  color: #fff;
+  font-size: 30px;
+  border: 1px solid #fff;
+}
+#test_drive .inner .test_more:hover a {
+  padding: 5px 40px;
+  color: #000;
+  font-size: 30px;
+  background: #fff;
+  font-weight: 600;
+}
